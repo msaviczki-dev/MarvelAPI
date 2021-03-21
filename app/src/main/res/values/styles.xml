@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">#f0f0f0</item>
+        <item name="android:textColorSecondary">#0f0f0f</item>
+    </style>
+</resources>

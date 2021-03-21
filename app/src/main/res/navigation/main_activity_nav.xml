@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_activity_nav"
+    app:startDestination="@id/listHeroFragment">
+
+    <fragment
+        android:id="@+id/listHeroFragment"
+        android:name="com.msaviczki.marvel_api.presentation.view.ListHeroFragment"
+        android:label="ListHeroFragment" />
+    <fragment
+        android:id="@+id/favoriteHeroFragment"
+        android:name="com.msaviczki.marvel_api.presentation.view.FavoriteHeroFragment"
+        android:label="FavoriteHeroFragment" />
+</navigation>

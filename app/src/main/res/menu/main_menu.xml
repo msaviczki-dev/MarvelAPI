@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/listHeroFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_list"
+        android:orderInCategory="1"
+        android:title="Lista"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/favoriteHeroFragment"
+        android:enabled="true"
+        android:icon="@drawable/hearth_unfilled"
+        android:orderInCategory="2"
+        android:title="Favoritos"
+        app:showAsAction="ifRoom" />
+
+</menu>
